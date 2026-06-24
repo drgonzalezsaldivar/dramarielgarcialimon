@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dramarielgarcia.com/sitemap.xml
