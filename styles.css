@@ -213,3 +213,26 @@ body.hovering #cursor-ring { width: 56px; height: 56px; border-color: rgba(37,21
   .wa-float-text { display: block; }
   .wa-float::before, .wa-float::after { border-radius: 26px; }
 }
+/* ── ESTILOS PARA LOS LOGOS DE HOSPITALES ── */
+.dif-logos-group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.dif-logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px; /* Esto le da altura para que no se aplaste */
+}
+
+.dif-logo-item img {
+  height: 100%;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+  filter: none !important; /* Esto asegura que NO se pongan grises ni blancos */
+  opacity: 1 !important;    /* Esto asegura que se vean al 100% de color */
+}
